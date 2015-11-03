@@ -80,7 +80,7 @@ int main()
 	stdDev2 = standardDev(v2, avg2);
 
 	fout << "Team Members: Nicholas Rosas, Raquel Figueroa, Maria Garcia, Thalia Villalobos\n\n";
-	fout << "Mean of coupon values for Steel: " << setprecision(2) << setw(25) << avg1 << endl;
+	fout << "Mean of coupon values for Steel: " << setw(25) << avg1 << endl;
 	fout << "Mean of coupon values for Graphite: " << setw(22) << avg2 << endl;
 	fout << "Max value of coupon values for Steel: " << setw(18) << maxVal(v1) << endl;
 	fout << "Max value of coupon values for Graphite: " << setw(15) << maxVal(v2) << endl;

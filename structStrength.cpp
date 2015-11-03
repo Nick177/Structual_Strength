@@ -91,7 +91,7 @@ int main()
 	fout << "Standard Deviation for Steel coupon values: " << setw(15) << stdDev1 << endl;
 	fout << "Standard Deviation for Graphite coupon values: " << setw(13) << stdDev2 << endl;
 
-	fout << "\n\nUpon considering these two coupon data sets, we have concluded that neither material is suitable for the design consideration of an aircraft longeron construction. Although, both the steel and graphite coupons stress test results are above the necessary design factor of S = 2, not all of the data points of the design factor S = 2 or 16000N are within three standard deviations.\n";
+	fout << "\n\nUpon considering these two coupon data sets, we have concluded that neither material are suitable for the design consideration of an aircraft longeron construction. Although, both the steel and graphite coupons stress test results are above the necessary design factor of S = 2, not all of the data points of the design factor S = 2 or 16000N are within three standard deviations.\n";
 
 
 	finSteel.close();
